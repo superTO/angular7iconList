@@ -123,6 +123,10 @@
               "devServerTarget": "angular7-icon-list:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
